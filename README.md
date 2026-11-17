@@ -42,7 +42,7 @@ python -m http.server 8080
 
 - three.js 0.169 与 Draco 解码器通过 jsDelivr CDN 加载，首次打开需要联网；
 - 模型文件在仓库内（约 36 MB），无需 Git LFS；
-- 仓库内是网页优化版；167 MB 原始模型可另行提供；
+- 仓库内是网页优化版；完整精度原始模型（167 MB）见 [Release v7.6.0](https://github.com/dafeiyu201008/sakura-hiyori/releases/tag/v7.6.0)，SHA-256 已附在 Release 说明里；
 - 浏览器不允许 file:// 直接加载 GLB，必须起本地服务器。
 
 ## 操作
