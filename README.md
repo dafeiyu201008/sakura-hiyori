@@ -28,10 +28,9 @@
 
 ## 快速开始
 
-模型约 167 MB，使用 Git LFS。先安装 LFS，再克隆：
+模型约 31 MB（网页优化版：Draco 压缩 + WebP 2K 贴图），直接克隆即可：
 
 ~~~bash
-git lfs install
 git clone https://github.com/dafeiyu201008/sakura-hiyori.git
 cd sakura-hiyori/web
 python -m http.server 8080
@@ -42,7 +41,8 @@ python -m http.server 8080
 依赖说明：
 
 - three.js 0.169 与 Draco 解码器通过 jsDelivr CDN 加载，首次打开需要联网；
-- 模型文件在仓库内，通过 LFS 拉取；
+- 模型文件在仓库内（约 31 MB），无需 Git LFS；
+- 仓库内是网页优化版；167 MB 原始模型可另行提供；
 - 浏览器不允许 file:// 直接加载 GLB，必须起本地服务器。
 
 ## 操作
@@ -77,7 +77,7 @@ web/
   sakura_source_r5_bundle.js  场景与资产构建
   sakura_source_r5_entry.js   交互、镜头、时段逻辑
   assets/
-    桜日和_网页资产_r5.glb     3D 模型（Git LFS，167 MB）
+    桜日和_网页资产_r5.glb     3D 模型（Draco + WebP 2K，约 31 MB）
 screenshots/                  四时段、镜头面板、花瓣与茶室截图
 demo/                         30 秒演示视频与封面
 docs/                         设计说明、版本记录、性能数据

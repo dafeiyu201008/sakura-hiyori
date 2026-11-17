@@ -62,4 +62,4 @@
 - three.js 0.169 + WebGL2
 - GLTFLoader + DRACOLoader
 - 单页 HTML + 两个模块化 JS（bundle 负责场景构建，entry 负责交互）
-- 模型资产 GLB（167 MB，Git LFS）
+- 模型资产 GLB（网页优化版 31 MB；原始 167 MB 另行提供）
